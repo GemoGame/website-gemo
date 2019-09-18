@@ -14,8 +14,8 @@ body {
     height: 100%;
     font-family: 'Lato',sans-serif;
 	font-weight: 300;
-    color: #666;
-    background-color: #fff;
+    color: #ffffff;
+    background-color: #262626;
 }
 
 html {
@@ -100,7 +100,7 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+    color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -231,7 +231,7 @@ a:focus {
 
 #load {
 	z-index: 9999;
-  background-color: #FF4136;
+  background-color: #000000;
   opacity: 0.75;
   width: 10px;
   height: 10px;
@@ -263,6 +263,13 @@ hr {
 --- General sections
 ============================ */
 
+section#skills {
+    background-color: #363636;
+    background-image: url("../img/.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
 .home-section {
     padding-top: 110px;
     padding-bottom: 110px;
@@ -282,6 +289,10 @@ hr {
 
 /* --- section bg var --- */
 
+.bg-orange{
+    background: #d55902;
+}
+
 .bg-white {
 	background: #fff;
 }
@@ -292,7 +303,7 @@ hr {
 
 
 .bg-dark {
-	background: #575757;
+	background: #343434;
 }
 
 /* --- section color var --- */
